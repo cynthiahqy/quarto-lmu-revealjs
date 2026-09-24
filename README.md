@@ -30,7 +30,7 @@ Teaching-specific options (`chalkboard`, `smaller`, `code-line-numbers`, `execut
 ## Notes
 
 - Colours are set in `_extensions/lmu/lmu-revealjs.scss` with `!default`, so a project `_brand.yml` takes precedence.
-- **Logo:** the extension ships logos in `_extensions/lmu/logos/` but does not set one by default. Quarto resolves an extension's `logo:` incorrectly in websites that use `_brand.yml` (broken `../../_extensions/...` path), so set the logo in the project instead:
+- **Logo:** the extension ships logos in `_extensions/lmu/logos/` but does not set one by default. Quarto resolves an extension's `logo:` incorrectly in website subfolders when the project uses `_brand.yml` (broken `../../_extensions/...` path; reported as [quarto-dev/quarto-cli#14946](https://github.com/quarto-dev/quarto-cli/issues/14946)), so set the logo in the project instead:
 
   ```yaml
   # _brand.yml (recommended for projects with a brand file)
