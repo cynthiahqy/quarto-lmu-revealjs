@@ -38,5 +38,7 @@ Teaching-specific options (`chalkboard`, `smaller`, `code-line-numbers`, `execut
     small: _extensions/lmu/logos/LMU_Logo_RGB_InvertiertGruen.png
   ```
 
-  or, in a standalone document with no `_brand.yml`, `logo: _extensions/lmu/logos/LMU_Logo_RGB_InvertiertGruen.png` in the YAML.
+  In a website with a green navbar, `_brand.yml`'s logo also appears in the navbar, where the green logo is invisible. Use `LMU_Logo_RGB_InvertiertWeiss.png` there and set a separate slide logo with `logo:` in the deck or shared YAML (e.g. `_slides.yml`).
+
+  For a standalone document with no `_brand.yml`, `logo: _extensions/lmu/logos/LMU_Logo_RGB_InvertiertGruen.png` in the YAML.
 - Fonts (Roboto) come from the project's `_brand.yml`; the extension does not load them.
