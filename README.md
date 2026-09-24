@@ -5,7 +5,7 @@ Reveal.js format with LMU Munich styling (LMU green, 1280×720, slide numbers, f
 ## Install
 
 ```bash
-quarto add soda-lmu/quarto-lmu-revealjs
+quarto add cynthiahqy/quarto-lmu-revealjs
 ```
 
 ## Use
@@ -25,7 +25,7 @@ format:
 
 ## Not included
 
-Teaching-specific options (`chalkboard`, `smaller`, `code-line-numbers`, `execute:` settings) are left to the project; see [quarto-lmu-subject-template](https://github.com/soda-lmu/quarto-lmu-subject-template) for an example.
+Teaching-specific options (`chalkboard`, `smaller`, `code-line-numbers`, `execute:` settings) are left to the project; see [quarto-lmu-subject-template](https://github.com/cynthiahqy/quarto-lmu-subject-template) for an example.
 
 ## Notes
 
