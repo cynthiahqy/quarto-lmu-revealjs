@@ -1,6 +1,6 @@
 # quarto-lmu-revealjs
 
-Reveal.js format with LMU Munich styling (LMU green, Roboto-friendly, LMU logo, 1280×720, chalkboard).
+Reveal.js format with LMU Munich styling (LMU green, LMU logo, 1280×720, slide numbers, fade transition).
 
 ## Install
 
@@ -22,6 +22,10 @@ format:
     footer: "https://example.org"
     incremental: true
 ```
+
+## Not included
+
+Teaching-specific options (`chalkboard`, `smaller`, `code-line-numbers`, `execute:` settings) are left to the project; see [quarto-lmu-subject-template](https://github.com/soda-lmu/quarto-lmu-subject-template) for an example.
 
 ## Notes
 
