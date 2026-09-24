@@ -1,6 +1,6 @@
 # quarto-lmu-revealjs
 
-Reveal.js format with LMU Munich styling (LMU green, LMU logo, 1280×720, slide numbers, fade transition).
+Reveal.js format with LMU Munich styling (LMU green, 1280×720, slide numbers, fade transition).
 
 ## Install
 
@@ -30,5 +30,13 @@ Teaching-specific options (`chalkboard`, `smaller`, `code-line-numbers`, `execut
 ## Notes
 
 - Colours are set in `_extensions/lmu/lmu-revealjs.scss` with `!default`, so a project `_brand.yml` takes precedence.
-- Logos in `_extensions/lmu/logos/`; change with `logo:` in the YAML.
+- **Logo:** the extension ships logos in `_extensions/lmu/logos/` but does not set one by default. Quarto resolves an extension's `logo:` incorrectly in websites that use `_brand.yml` (broken `../../_extensions/...` path), so set the logo in the project instead:
+
+  ```yaml
+  # _brand.yml (recommended for projects with a brand file)
+  logo:
+    small: _extensions/lmu/logos/LMU_Logo_RGB_InvertiertGruen.png
+  ```
+
+  or, in a standalone document with no `_brand.yml`, `logo: _extensions/lmu/logos/LMU_Logo_RGB_InvertiertGruen.png` in the YAML.
 - Fonts (Roboto) come from the project's `_brand.yml`; the extension does not load them.
