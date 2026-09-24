@@ -1,0 +1,8 @@
+/.quarto/
+_site/
+*_files/
+.DS_Store
+._*
+Thumbs.db
+.Rproj.user/
+.Rhistory

@@ -1,0 +1,11 @@
+---
+title: "Slide title"
+subtitle: "Subtitle"
+author: "Your Name"
+format: lmu-revealjs
+---
+
+## A slide
+
+- Point one
+- Point two
